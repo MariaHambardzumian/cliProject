@@ -1,4 +1,5 @@
-const os = require('os');
+import os from 'os'
+
 console.log(`Welcome ${os.userInfo().username}!`);
 process.stdin.on('data', (data) => {
     data = data.toString().trim()
